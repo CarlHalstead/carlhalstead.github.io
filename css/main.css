@@ -22,3 +22,11 @@
 	width: 200px;
 	height: 40px;
 }
+
+.spacer {
+	margin-top: 40px;
+}
+
+.spacer-small {
+	margin-top: 20px;
+}
