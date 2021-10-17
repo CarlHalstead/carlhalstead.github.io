@@ -1,0 +1,24 @@
+.align-center {
+	text-align:  center;
+}
+
+.text-underlined {
+	text-decoration: underline;
+}
+
+.fill-width {
+	width:  100%;
+}
+
+.text-editor-height {
+	height: 300px;
+}
+
+.text-editor-resize-disable {
+	resize: none;
+}
+
+.btn-size {
+	width: 200px;
+	height: 40px;
+}

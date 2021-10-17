@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="../../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../../css/main.css" rel="stylesheet">
+
+	<script src="main.js"></script>
+
+	<title>Word Counter</title>
+</head>
+<body>
+	<div class="col-md-6 col-md-offset-3">
+		<h1 class="align-center text-underlined">Word Counter</h1>
+		<h4 class="align-center"><a href="../../index.html">Return to Menu</a></h3>
+
+		<textarea id="wordsInput" class="fill-width text-editor-height text-editor-resize-disable"></textarea>
+
+		<div class="align-center">
+			<input type="button" class="btn btn-size" name="btnCalculate" onclick="calculateWords()" value="Calculate">
+		</div>
+
+		<div class="align-center">
+			<h4 id="wordsCount">Total Words: 0</h4>
+			<h4 id="characterCount">Total Characters: 0</h4>
+		</div>
+	</div>
+	</body>
+</html>
