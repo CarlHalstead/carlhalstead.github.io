@@ -1,6 +1,3 @@
-
-
-
 function calculateRemainingTime (){
 	const event = "Dying Light 2";
 	const eventDate = new Date(2022, 1, 4);
@@ -10,10 +7,10 @@ function calculateRemainingTime (){
 	var remainingHoursText = document.getElementById("remainingHours");
 	var remainingMinutesText = document.getElementById("remainingMinutes");
 	var remainingSecondsText = document.getElementById("remainingSeconds");
-	
+
 	eventText.textContent = "Event: " + event;
 
-	setTimeout(function () {
+	setInterval(function () {
 		const currentDate = Date.now();
 
 		let secondsRemaining = Math.round((eventDate - currentDate) / 1000);
