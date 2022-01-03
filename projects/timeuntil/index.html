@@ -6,6 +6,8 @@
 
 	<script src="main.js"></script>
 
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<meta name="description" content="A simple webpage for calculating the time until an event" />
@@ -16,18 +18,26 @@
 </head>
 <body onload="calculateRemainingTime()">
 	<div class="col-md-6 col-md-offset-3">
-		<h1 class="align-center text-underlined">Time Until</h1>
-		<h4 class="align-center"><a href="../../">Return to Menu</a></h3>
+		<div class="feed-time">
+			<h1 class="align-center text-underlined">Time Until</h1>
+			<h4 class="align-center"><a href="../../">Return to Menu</a></h3>
 
-		<h2 id="eventName" class="align-center">Event Name</h2>
+			<h2 id="eventName" class="align-center">Event Name</h2>
 
-		<br>
+			<br>
 
-		<div class="align-center">
-			<h4 id="remainingDays">Days Remaining: 0</h4>
-			<h4 id="remainingHours">Hours Remaining: 0</h4>
-			<h4 id="remainingMinutes">Hours Remaining: 0</h4>
-			<h4 id="remainingSeconds">Hours Remaining: 0</h4>
+			<div class="align-center">
+				<h4 id="remainingDays">Days Remaining: 0</h4>
+				<h4 id="remainingHours">Hours Remaining: 0</h4>
+				<h4 id="remainingMinutes">Hours Remaining: 0</h4>
+				<h4 id="remainingSeconds">Hours Remaining: 0</h4>
+			</div>
+		</div>
+		
+		<div class="feed-twitter">
+			<a class="twitter-timeline" data-height="500" data-dnt="true" href="https://twitter.com/DyingLightGame?ref_src=twsrc%5Etfw">
+				Tweets by DyingLightGame
+			</a> 
 		</div>
 	</div>
 	</body>
