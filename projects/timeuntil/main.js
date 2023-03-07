@@ -1,6 +1,6 @@
 function calculateRemainingTime (){
-	const event = "Dying Light 2";
-	const eventDate = new Date(2022, 1, 4);
+	const event = "Dead Island 2";
+	const eventDate = new Date(2023, 3, 21);
 
 	var eventText = document.getElementById("eventName");
 	var remainingDaysText = document.getElementById("remainingDays");
